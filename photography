@@ -1,0 +1,54 @@
+<head><link href=/static/css/app.7cad7778e392e5e4925f9e44394a2375.css rel=stylesheet></head>Html Webpack Plugin:<pre>
+  Error: Child compilation failed:
+  Entry module not found: Error: Can't resolve '/Users/bastard/dev/wip/jeronimo/src/views/pages/photography' in '/Users/bastard/dev/wip/jero  nimo':
+  Error: Can't resolve '/Users/bastard/dev/wip/jeronimo/src/views/pages/photography' in '/Users/bastard/dev/wip/jeronimo'
+  
+  - compiler.js:76 
+    [jeronimo]/[html-webpack-plugin]/lib/compiler.js:76:16
+  
+  - Compiler.js:300 compile
+    [jeronimo]/[webpack]/lib/Compiler.js:300:11
+  
+  - Compiler.js:510 applyPluginsAsync.err
+    [jeronimo]/[webpack]/lib/Compiler.js:510:14
+  
+  - Tapable.js:202 next
+    [jeronimo]/[tapable]/lib/Tapable.js:202:11
+  
+  - CachePlugin.js:78 Compiler.<anonymous>
+    [jeronimo]/[webpack]/lib/CachePlugin.js:78:5
+  
+  - Tapable.js:206 Compiler.applyPluginsAsyncSeries
+    [jeronimo]/[tapable]/lib/Tapable.js:206:13
+  
+  - Compiler.js:507 compilation.seal.err
+    [jeronimo]/[webpack]/lib/Compiler.js:507:11
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [jeronimo]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:677 applyPluginsAsync.err
+    [jeronimo]/[webpack]/lib/Compilation.js:677:19
+  
+  - Tapable.js:202 next
+    [jeronimo]/[tapable]/lib/Tapable.js:202:11
+  
+  - index.js:126 LastCallWebpackPlugin.process
+    [jeronimo]/[last-call-webpack-plugin]/index.js:126:12
+  
+  - index.js:197 Compilation.<anonymous>
+    [jeronimo]/[last-call-webpack-plugin]/index.js:197:12
+  
+  - Tapable.js:206 Compilation.applyPluginsAsyncSeries
+    [jeronimo]/[tapable]/lib/Tapable.js:206:13
+  
+  - Compilation.js:668 applyPluginsAsync.err
+    [jeronimo]/[webpack]/lib/Compilation.js:668:11
+  
+  - Tapable.js:202 next
+    [jeronimo]/[tapable]/lib/Tapable.js:202:11
+  
+  - index.js:244 Compilation.<anonymous>
+    [jeronimo]/[uglifyjs-webpack-plugin]/dist/index.js:244:6
+  
+</anonymous></anonymous></anonymous></pre><script type=text/javascript src=/static/js/manifest.2ae2e69a05c33dfc65f8.js></script><script type=text/javascript src=/static/js/vendor.720557e041fe37f79c87.js></script><script type=text/javascript src=/static/js/app.816061321b9b2d79127e.js></script>
